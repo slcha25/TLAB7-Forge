@@ -10,6 +10,6 @@ resource "aws_security_group" "sabotaged_sg" {
     from_port   = 22  
     to_port     = 22  
     protocol    = "tcp"  
-    cidr_blocks = ["185.108.105.239/32"] # SABOTAGE: SSH exposed to the world  
+    cidr_blocks = ["74.64.35.195/32"] # SABOTAGE: SSH exposed to the world  
   }  
 }  
